@@ -1,0 +1,11 @@
+.mypage-container {
+    background-image: url('../../public/Mypage.png');
+    margin: 0;
+    margin-left: 250px; /* Sidebar width */
+    padding-left: 40%;
+    padding: 0;
+    height: 100vh;
+    background-size: 1600px 900px; 
+    display: flex;
+  }
+  

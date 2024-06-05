@@ -1,0 +1,90 @@
+.mypage-container {
+  background-image: url('../../public/Mypage.png');
+  margin: 0;
+  margin-left: 250px; /* Sidebar width */
+  padding-left: 40%;
+  padding: 0;
+  height: 100vh;
+  background-size: 1600px 900px; 
+  display: flex;
+}
+.edit-profile-modal h2{
+  margin-left: 285px;
+  margin-top: -60px;
+  font-size: 60px;
+  position: absolute;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.edit-profile-modal {
+  padding-top: 160px; /* 전체적인 위치를 아래로 이동 */
+}
+.form-group {
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 850px;;
+  color: #555;
+}
+.top-container {
+  margin-top: 50px;
+  margin-left:350px;
+  font-size: 40px;
+  position: absolute;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.profile-image{
+  width: 400px;
+  height: 400px;
+  margin-left: 250px;
+  margin-top: 250px;
+  position: absolute;
+}
+.user-info {
+  margin-top: 300px;
+  margin-left: 750px;
+  font-size: 60px;
+  color: #555;
+  position: absolute;
+}
+
+.mpbutton-container { 
+  margin-top: 670px;
+  margin-left: 340px;
+}
+
+
+.mpsubmit-btn {
+ background-color: #C36E5A;
+ color: white;
+ margin-top: -100px;
+ display: inline-block; /* 버튼을 가로로 배치 */
+}
+
+.mpedit-btn,.mpdelete-btn {
+  background-color: #C36E5A;
+  color: white;
+}
+
+.mpsubmit-btn:hover {
+  background-color: #F6D635;
+}
+
+.mpsubmit-btn:active {
+  background-color: #F6D635;
+}
+.mpedit-btn:hover {
+  background-color: #F6D635;
+}
+
+.mpedit-btn:active {
+  background-color: #F6D635;
+}
+
+.mpdelete-btn:hover {
+  background-color: #ff1a1a;
+}
+
+.mpdelete-btn:active {
+  background-color: #ff0000;
+}
